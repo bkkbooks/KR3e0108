@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3e0108/v1
+canonical_location: https://kanripo.org/bkk/KR3e0108/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 藥錄一卷
+  identifiers:
+    krp: KR3e0108
+  tags:
+    kr-categories: KR3e
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3e0108.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR3e0108_001.yaml, hash: 'sha256:724ceae2914b4c373721c0529759a8cff0a85b2d93c959a03947bdee6fc4618d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3e0108_001.markers.yaml, hash: 'sha256:960f7f8d82c8cf05f439b8dc72da5e4495edf362bbde9ae01d305d3518c13251'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3e0108_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 356
+  label: 藥錄
+  type: section
+  level: 1
+hash: sha256:67cad4cc37fa5c9089bd36623654ce11e5fd4f5f91e3ded37da5b59ba40d860e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

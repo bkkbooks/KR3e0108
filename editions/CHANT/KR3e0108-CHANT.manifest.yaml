@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR3e0108/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3e0108/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 藥錄一卷
+  identifiers:
+    krp: KR3e0108
+  tags:
+    kr-categories: KR3e
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR3e0108.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3e0108_001-CHANT.yaml, hash: 'sha256:cccedcdac3099d1ebd572fde779fcc0df0357664f85a22cd0a60c787b0c2872d'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3e0108_001-CHANT.markers.yaml, hash: 'sha256:626571ed93300cec90d9539de1fa14ab2e9cf4a29fbcc8d65afcf05c2ec54625'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3e0108_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 356
+  label: 藥錄
+  type: section
+  level: 1
+hash: sha256:f8d01bb38eebf18ab2a2049686e9d02908ebd385a10b9a74030e4283bc69925f
